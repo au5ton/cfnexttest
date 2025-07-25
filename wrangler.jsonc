@@ -21,8 +21,8 @@
 	"workers_dev": true,
 	"preview_urls": true,
 	"route": {
-		"pattern": "dev.cfnexttest.cf.soot.dev/*",
-		"zone_name": "soot.dev"
+		"custom_domain": true,
+		"pattern": "dev.cfnexttest.cf.soot.dev"
 	},
 	"vars": {
 		"NEXTJS_ENV": "development",
@@ -38,8 +38,8 @@
 				"global_fetch_strictly_public"
 			],
 			"route": {
-        "pattern": "cfnexttest.cf.soot.dev/*",
-        "zone_name": "soot.dev"
+				"custom_domain": true,
+        "pattern": "cfnexttest.cf.soot.dev"
       },
 			"vars": {
 				"NEXTJS_ENV": "production",
