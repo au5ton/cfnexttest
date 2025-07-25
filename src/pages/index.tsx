@@ -40,7 +40,7 @@ export default function Home() {
             </li>
             <li>Save and see your changes instantly.</li>
             <li>???</li>
-            <li>Profit!</li>
+            <li>Profit! 🧪</li>
           </ol>
 
           <div className={styles.ctas}>
