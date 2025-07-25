@@ -39,6 +39,8 @@ export default function Home() {
               Get started by editing <code>src/pages/index.tsx</code>.
             </li>
             <li>Save and see your changes instantly.</li>
+            <li>???</li>
+            <li>Profit!</li>
           </ol>
 
           <div className={styles.ctas}>
